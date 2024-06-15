@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    
+    <form action="/form.php" method="post" autocomplete="on">
+          
+
+        <marquee behavior="" direction="margin"> **********************BASIS***********************</marquee>
+        
+        <div class="diva">
+            <H2 style="text-align: center;">BASIS Form</H2>
+        <hr> <br>
+        <pre>
+            <label for="first_name" id="label">First Name:<input type="text"></label>
+            <br><br>
+            <label for="Last_name" id="label">Last Name:<input type="text">
+            </label><br><br>
+            <label for="E-mail">E-Mail:<input type="E-mail"></label>
+
+        </pre>
+            <label for=""><u>Gender:</u></label><br>
+            <label for="Gender" id="label">
+                <input type="radio">Male</label><br>
+            <label for="Gender" id="label"><input type="radio">Female</label><br>
+            <label for="Gender" id="label"><input type="radio">Prefer not to tell</label><br>
+
+            <label for="marital status" id="label"><u>Marital status</u> <br>
+                <input type="checkbox" id="label">Married <br>
+                <input type="checkbox" id="label">Unmarried</label>
+                    <br><br>
+                <Label id="label">Last completed Educational Qualification Level
+                    <select name="Qualification" id="qual">
+                        <option value="1" id="label">J.S.C</option>
+                        <option value="2" id="label">S.S.C</option>
+                        <option value="3" id="label">H.S.C</option>
+                        <option value="4" id="label">Undergraduate</option>
+                        <option value="5" id="label">Post Graduate</option>
+                       
+                    </select>
+                </Label><br><br>
+               
+                    <textarea name="tarea" id="ta" cols="3" rows="2">
+                        Write If you have any other types of certification
+                    </textarea>
+               
+                    <button onclick="alert('Submit Correctly or the form will be declined')" id="label">Click to See Alert Notice</button>
+
+                
+                    <label for="district">district</label>
+                    <div>
+                        <select name="district" id="district">
+                            <option value="CTG">Chittagong</option>
+                            <option value="DHK">Dhaka</option>
+                            <option value="SYL">Sylhet</option>
+                            <option value="RAJ">Rajshahi</option>
+                        </select>
+
+                </div><br><br>
+
+                <label for="fileup">File to upload</label>
+                <input type="file" name="fileup" id="fileup" multiple="multiple">
+
+                <input type="hidden" value="User will not see that">
+                  
+                <div media>
+                    <video src="vdo.mp4" style="height: 200px; width: 200px;" type="video/mp4" controls>Video</video>
+                </div>
+                <div>
+
+                    <label for="date">Date<input type="datetime-local" style="margin-left: 20%;"></label>
+                    <br><br>
+                    <label for="password">Password: <input type="Password" name="" id="" style="margin-left:8% ;"></label>
+                </div>
+                 <br><br>
+            <input style="margin-left: 30%; display: block;
+            " type="Submit" value="Submit" ><br><br>
+       
+        <br>
+    </form>
+    <br><br>
+ </div>
+
+
+</body>
+</html>
